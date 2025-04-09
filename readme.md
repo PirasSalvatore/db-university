@@ -28,7 +28,7 @@ per ogni appello d'`Esame` a cui lo `Studente` ha partecipato, è necessario mem
 - id
 - name
 - code
-- ? corsi(materie)/plan
+- ? corsi(materie)/plan/corsi
 - life
 - credits
 
@@ -66,12 +66,20 @@ per ogni appello d'`Esame` a cui lo `Studente` ha partecipato, è necessario mem
 - ? corso
 - ? libretto
 
+## table name: `Libretto`
+
+**colums**
+
+- id
+- credits
+
 ## table name: `Esami`
 
 **colums**
 
 - id
 - corso
+- insegnante
 - studente
 - voto
 - class
